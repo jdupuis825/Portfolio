@@ -1,0 +1,20 @@
+/**
+    Title: site.css
+    Author: Jocelyn Dupuis
+    Date: 06/22/2023
+    Description: Styling for Jocelyn's Personal Portfolio
+*/
+
+:root {
+    --primary: #1c5a66;
+    --secondary: #86daeb;
+    --accent: #3ecae6;
+    --card-hover: #3a5f66;
+  }
+
+
+.grid-equal-columns {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
