@@ -12,9 +12,211 @@
     --card-hover: #3a5f66;
   }
 
+html, body, h1, h2, header, body, footer, p, nav, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+body {
+  background: lightgray;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#nav-container {
+	background: url("images/nav.jpg");
+	text-align: center;
+	overflow: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 7px;
+}
+
+li { 
+  display: inline-block;
+  padding: 25px; 
+}
+
+/**
+li #bucket-list {
+  display: block;
+}
+*/
+
+#nav-list a:hover {
+  color: #1c5a66;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+h1 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: #C80F72;
+	font-size: 3em;
+  text-align: center;
+  padding-top: 15px;
+}
+
+h2 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: #C80F72;
+	text-align: center;
+  font-size: 2.5em;
+	padding: 25px 10px 0 20px;
+	margin: 0 0 0 0;
+}
+
+h3 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: #C80F72;
+	text-align: center;
+  font-size: 1.75em;
+	padding: 25px 10px 0 20px;
+	margin: 0 0 0 0;
+}
+
+h4 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: black;
+  font-weight: bold;
+	text-align: center;
+  font-size: 1.75em;
+	padding: 25px 10px 0 20px;
+	margin: 0 0 0 0;
+}
+
+a {
+  display: inline-block;
+  margin: 0;
+  padding: 5px 15px;
+  color: #C80F72;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: lightgray;
+  text-align: center;
+}
+
+p {
+	color: black;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px 20px 5px 20px;
+}
+
+hr {
+  border: 3px solid #1c5a66;
+  border-radius: 3px;
+  width: 25%;
+}
+
+#line {
+  border: 3px solid #1c5a66;
+  border-radius: 3px;
+  width: 5%;
+}
+
+/**
+header {
+	text-align: center;
+	padding: 20px 10px;
+	background: lightgray;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}
+*/
+
+.bucket-list {
+  width: 55%;
+  float: right;
+  font-family: 'Oswald', "Times New Roman", "serif";
+  font-size: 1.55em;
+  text-align: center;
+  font-weight: 300;
+  
+  background: url("images/checklist2.avif");
+  
+  background-size: 700px 910px;
+  border-style: solid;
+  border-color: #C80F72;
+  border-radius: 15px;
+}
+
+.profile-picture {
+  width: 38%;
+  float: left;
+  padding: 10px;
+  background: #1c5a66;
+  border-style: solid;
+  border-color: #C80F72;
+  border-radius: 15px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.profile-pic {
+  border-style: solid;
+  border-color: #C80F72;
+  border-radius: 15px;  
+}
+
+.bucket-list-item {
+  display: grid;
+}
+
+.row-hobbies {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background: url("images/background.jpeg");
+  background-size: 1800px 500px;
+  background-color: #1c5a66;
+  border-style: solid;
+  border-color: #C80F72;
+  border-radius: 5px;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px 50px;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Oswald', "Times New Roman", "serif";
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.pic {
+  width: 400px;
+  height: 350px;
+  border: 2px;
+  border-style: solid;
+  border-color: #C80F72;
+  border-radius: 15px;
+}
 
 .grid-equal-columns {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(3, 1fr);
-  }
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#footer {
+  margin-top: auto;
+  text-align: center;
+}
+
+#footer a:hover {
+  color: #1c5a66;
+  font-style: italic;
+  text-decoration: underline;
+}
+

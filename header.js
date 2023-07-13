@@ -14,11 +14,7 @@ class Header extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML = 
-            `<div id="banner">
-                <h1>Jocelyn Dupuis' Personal Portfolio</h1>
-            </div>
-
-            <div id="nav-container">
+            `<div id="nav-container">
                 <ul id="nav-list">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Me</a></li>
@@ -28,6 +24,11 @@ class Header extends HTMLElement {
                     <li><a href="api-unit-tests.html">API Unit Tests</a></li>
                 </ul>
             </div>
+
+            <div id="banner">
+                <h1>Jocelyn Dupuis' Personal Portfolio</h1>
+            </div>
+            <hr>
         `;
     }
 }
