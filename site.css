@@ -139,7 +139,7 @@ header {
   text-align: center;
   font-weight: 300;
   
-  background: url("images/checklist2.jpg");
+  background: url("images/checklist2.avif");
   
   background-size: 700px 910px;
   border-style: solid;
@@ -201,6 +201,17 @@ header {
   border-style: solid;
   border-color: #C80F72;
   border-radius: 15px;
+}
+
+.resume-work {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  padding-bottom: 0;
+}
+
+.assign-container-resume {
+  padding-bottom: 0;
 }
 
 .grid-equal-columns {
