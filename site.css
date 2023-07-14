@@ -42,6 +42,12 @@ li {
   padding: 25px; 
 }
 
+/**
+li #bucket-list {
+  display: block;
+}
+*/
+
 #nav-list a:hover {
   color: #1c5a66;
   font-style: italic;
@@ -137,6 +143,16 @@ hr {
   width: 5%;
 }
 
+/**
+header {
+	text-align: center;
+	padding: 20px 10px;
+	background: lightgray;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}
+*/
+
 .bucket-list {
   width: 55%;
   float: right;
@@ -222,6 +238,10 @@ hr {
   column-rule-style: solid;
   column-rule-width: 2px;
   padding-bottom: 0;
+}
+
+.content-project {
+  font-size: 1.25em;
 }
 
 .card-content {
