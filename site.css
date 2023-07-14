@@ -6,17 +6,17 @@
 */
 
 :root {
-    --primary: #1c5a66;
-    --secondary: #86daeb;
-    --accent: #3ecae6;
-    --card-hover: #3a5f66;
+  --primary: #1c5a66;
+  --secondary: #86daeb;
+  --accent: #3ecae6;
+  --card-hover: #3a5f66;
   }
 
 html, body, h1, h2, header, body, footer, p, nav, ul, li {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
 }
 
 body {
@@ -27,9 +27,9 @@ body {
 }
 
 #nav-container {
-	background: url("images/nav.jpg");
-	text-align: center;
-	overflow: auto;
+  background: url("images/nav.jpg");
+  text-align: center;
+  overflow: auto;
 }
 
 ul {
@@ -42,12 +42,6 @@ li {
   padding: 25px; 
 }
 
-/**
-li #bucket-list {
-  display: block;
-}
-*/
-
 #nav-list a:hover {
   color: #1c5a66;
   font-style: italic;
@@ -55,59 +49,59 @@ li #bucket-list {
 }
 
 h1 {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	color: #C80F72;
-	font-size: 3em;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  color: #C80F72;
+  font-size: 3em;
   text-align: center;
   padding-top: 15px;
 }
 
 h2 {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	color: #C80F72;
-	text-align: center;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  color: #C80F72;
+  text-align: center;
   font-size: 2.5em;
-	padding: 25px 10px 0 20px;
-	margin: 0 0 0 0;
+  padding: 25px 10px 0 20px;
+  margin: 0 0 0 0;
 }
 
 h3 {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	color: #C80F72;
-	text-align: center;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  color: #C80F72;
+  text-align: center;
   font-size: 1.75em;
-	padding: 25px 10px 0 20px;
-	margin: 0 0 0 0;
+  padding: 25px 10px 0 20px;
+  margin: 0 0 0 0;
 }
 
 h4 {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	color: black;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  color: black;
   font-weight: bold;
-	text-align: center;
+  text-align: center;
   font-size: 1.75em;
-	padding: 25px 10px 0 20px;
-	margin: 0 0 0 0;
+  padding: 25px 10px 0 20px;
+  margin: 0 0 0 0;
 }
 
 h5 {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	color: black;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  color: black;
   font-weight: bold;
-	text-align: center;
+  text-align: center;
   font-size: 1.5em;
-	padding: 25px 10px 0 20px;
-	margin: 0 0 0 0;
+  padding: 25px 10px 0 20px;
+  margin: 0 0 0 0;
 }
 
 h6 {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	color: black;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  color: black;
   font-weight: lighter;
-	text-align: center;
-  font-size: 1.75em;
-	padding: 10px 10px 0 20px;
-	margin: 0 0 0 0;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 10px 10px 0 20px;
+  margin: 0 0 0 0;
 }
 
 a {
@@ -122,23 +116,14 @@ a {
 }
 
 p {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	color: black;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  color: black;
   font-weight: lighter;
-	text-align: center;
+  text-align: center;
   font-size: 1.75em;
-	padding: 10px 10px 0 20px;
-	margin: 0 0 0 0;
+  padding: 10px 10px 0 20px;
+  margin: 0 0 0 0;
 }
-/**
-p {
-	color: black;
-	font-size: 1.5em;
-	font-weight: bold;
-	text-align: center;
-	padding: 5px 20px 5px 20px;
-}
-*/
 
 hr {
   border: 3px solid #1c5a66;
@@ -152,26 +137,14 @@ hr {
   width: 5%;
 }
 
-/**
-header {
-	text-align: center;
-	padding: 20px 10px;
-	background: lightgray;
-	background-repeat: no-repeat;
-	background-size: auto 100%;
-}
-*/
-
 .bucket-list {
   width: 55%;
   float: right;
   font-family: 'Oswald', "Times New Roman", "serif";
   font-size: 1.55em;
   text-align: center;
-  font-weight: 300;
-  
-  background: url("images/checklist2.avif");
-  
+  font-weight: 300; 
+  background: url("images/checklist2.avif"); 
   background-size: 700px 910px;
   border-style: solid;
   border-color: #C80F72;
