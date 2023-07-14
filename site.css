@@ -90,6 +90,26 @@ h4 {
 	margin: 0 0 0 0;
 }
 
+h5 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: black;
+  font-weight: bold;
+	text-align: center;
+  font-size: 1.5em;
+	padding: 25px 10px 0 20px;
+	margin: 0 0 0 0;
+}
+
+h6 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: black;
+  font-weight: lighter;
+	text-align: center;
+  font-size: 1.75em;
+	padding: 10px 10px 0 20px;
+	margin: 0 0 0 0;
+}
+
 a {
   display: inline-block;
   margin: 0;
@@ -102,12 +122,23 @@ a {
 }
 
 p {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: black;
+  font-weight: lighter;
+	text-align: center;
+  font-size: 1.75em;
+	padding: 10px 10px 0 20px;
+	margin: 0 0 0 0;
+}
+/**
+p {
 	color: black;
 	font-size: 1.5em;
 	font-weight: bold;
 	text-align: center;
 	padding: 5px 20px 5px 20px;
 }
+*/
 
 hr {
   border: 3px solid #1c5a66;
