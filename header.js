@@ -22,6 +22,7 @@ class Header extends HTMLElement {
                     <li><a href="projects.html">Projects</a></li>
                     <li><a href="database.html">Database Diagrams</a></li>
                     <li><a href="api-unit-tests.html">API Unit Tests</a></li>
+                    <li><a href="web-430/dupuis-tech-value-stream.html</a></li>
                 </ul>
             </div>
 
