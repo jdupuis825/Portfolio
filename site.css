@@ -254,14 +254,14 @@ header {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.video-card {
+.video-content {
   max-width: 25%;
   max-height: 25%;
   overflow: hidden;
 }
 
 video {
-  max-width: 325px;
+  max-width: 100px;
 }
 
 #footer {
@@ -275,3 +275,7 @@ video {
   text-decoration: underline;
 }
 
+.card-container {
+  max-width: 75%;
+  margin: 0 auto;
+}
