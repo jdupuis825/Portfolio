@@ -54,6 +54,21 @@ li #bucket-list {
   text-decoration: underline;
 }
 
+
+
+
+/**.navbar a:hover {
+  color: #1c5a66;
+  font-style: italic;
+  text-decoration: underline;
+}*/
+
+
+
+
+
+
+
 h1 {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	color: #C80F72;
@@ -266,9 +281,13 @@ video {
 }
 
 .video-content {
-  max-width: 25%;
-  max-height: 25%;
+  max-width: 100%;
+  max-height:100%;
   overflow: hidden;
+  padding: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
 }
 
 /* Footer styles */
