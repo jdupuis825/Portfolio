@@ -54,6 +54,21 @@ li #bucket-list {
   text-decoration: underline;
 }
 
+
+
+
+.navbar a:hover {
+  color: #1c5a66;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
 h1 {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	color: #C80F72;
