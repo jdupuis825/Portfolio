@@ -12,7 +12,7 @@
     --card-hover: #3a5f66;
   }
 
-html, body, h1, h2, header, body, footer, p, nav, ul, li {
+html, a, body, h1, h2, h3, h4, h5, h6, head, header, body, footer, p, nav, ul, li {
     margin: 0;
     padding: 0;
     border: 0;
@@ -160,9 +160,7 @@ header {
   font-size: 1.55em;
   text-align: center;
   font-weight: 300;
-  
   background: url("images/checklist2.avif");
-  
   background-size: 700px 910px;
   border-style: solid;
   border-color: #C80F72;
@@ -225,6 +223,7 @@ header {
   border-radius: 15px;
 }
 
+/* resume styles */
 .resume-work {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -232,6 +231,7 @@ header {
   padding-bottom: 0;
 }
 
+/* projects styles */
 .projects {
   column-count: 2;
   column-gap: 0;
@@ -244,8 +244,14 @@ header {
   font-size: 1.25em;
 }
 
+/* card styles */
 .card-content {
   text-align: center;
+}
+
+.card-container {
+  max-width: 75%;
+  margin: 0 auto;
 }
 
 .grid-equal-columns {
@@ -254,16 +260,18 @@ header {
   grid-template-columns: repeat(3, 1fr);
 }
 
+/* video styles */
+video {
+  max-width: 100px;
+}
+
 .video-content {
   max-width: 25%;
   max-height: 25%;
   overflow: hidden;
 }
 
-video {
-  max-width: 100px;
-}
-
+/* Footer styles */
 #footer {
   margin-top: auto;
   text-align: center;
@@ -275,7 +283,3 @@ video {
   text-decoration: underline;
 }
 
-.card-container {
-  max-width: 75%;
-  margin: 0 auto;
-}
