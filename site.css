@@ -278,6 +278,8 @@ header {
 /* video styles */
 video {
   max-width: 100px;
+  display: block;
+  margin: 0 auto;
 }
 
 .video-content {
