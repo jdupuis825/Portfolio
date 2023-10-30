@@ -274,8 +274,8 @@ video {
 }
 
 .video-content {
-  max-width: 175%;
-  max-height: 200%;
+  max-width: 25%;
+  max-height: 25%;
   overflow: hidden;
   padding: 10px;
   margin-left: 5%;
